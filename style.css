@@ -1,0 +1,68 @@
+.img16 {
+  width: 150px;
+}
+
+.card {
+  display: inline-block;
+  margin: 50px;
+}
+
+.btn {
+  width: 100px;
+  font-size: 15px;
+
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.btn a {
+  color: black;
+}
+
+.btn:hover {
+  transform: rotate(1turn);
+}
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Courier, monospace;
+}
+
+.menu li {
+  display: inline-block; //в рядок
+}
+
+.menu a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: cursive;
+  padding: 20px;
+  transition: all 0.5s;
+}
+
+.menu a:hover {
+  color: rgb(212, 37, 212);
+  transform: scale(1.5);
+  font-family: Impact;
+}
+
+.egshop {
+  width: 290px;
+}
+
+.wq {
+  float: right;
+  width: 300px;
+}
+
+.ert {
+  width: 500px;
+  float: right;
+  margin-right: 100px;
+}
+
+.ty {
+  float: right;
+}
